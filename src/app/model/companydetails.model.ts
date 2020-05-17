@@ -5,12 +5,12 @@ export class CompanyDetailsModel{
   
   public companyInfo : any = 
     {
-      name : 'Trend Shopping',
-      address : 'No: 12,OMR Road',
-      city: 'Chennai',
-      pincode: '600045',
-      email: 'customer.care@a2zshoppee.com',
-      phone : '044-43232123'
+      name : 'Online Shopping',
+      address : '6,Dehiwala Road',
+      city: 'Colombo',
+      pincode: '18050',
+      email: 'customer.care@onlineshoppee.com',
+      phone : '079876564'
     }
     
   
