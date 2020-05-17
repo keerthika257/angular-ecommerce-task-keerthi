@@ -23,7 +23,7 @@ import { CartService } from './services/cart.service';
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule,RouterConfig ],
   declarations: [ AppComponent, HelloComponent, dirConfig ,RouterDeclarations,FilterPipe,SortPipe ],
-  providers : [ProductsModel,, StorageService,CartService],
+  providers : [ProductsModel, StorageService,CartService],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
