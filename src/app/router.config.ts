@@ -23,6 +23,6 @@ export const RouterConfig = [
 
 ];
 
-export const RouterDeclarations = [ ProductsPage ];
+export const RouterDeclarations = [ ProductsPage];
 
 
