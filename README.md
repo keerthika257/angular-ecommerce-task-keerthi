@@ -1,11 +1,11 @@
 
-
 Angular Ecommerce Demo
 
 This is a demo e-commerce store built using Angular.
 
-Online Demo
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ecommerce-task)
+To run demo and view source code in stackblitz:
+
+https://stackblitz.com/edit/angular-onlineshopping-task
 
 
 Features
