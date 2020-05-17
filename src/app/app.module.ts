@@ -11,8 +11,7 @@ import { dirConfig } from './dir.config';
 import { RouterConfig,RouterDeclarations } from './router.config';
 
 import { ProductsModel } from './model/products.model';
-import { BillingFormModel } from './model/billingformfields.model';
-import { CompanyDetailsModel } from './model/companydetails.model';
+
 
 
 import { FilterPipe } from './pipes/filter.pipe';
@@ -24,7 +23,7 @@ import { CartService } from './services/cart.service';
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule,RouterConfig ],
   declarations: [ AppComponent, HelloComponent, dirConfig ,RouterDeclarations,FilterPipe,SortPipe ],
-  providers : [ProductsModel,BillingFormModel,CompanyDetailsModel, StorageService,CartService],
+  providers : [ProductsModel,, StorageService,CartService],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
