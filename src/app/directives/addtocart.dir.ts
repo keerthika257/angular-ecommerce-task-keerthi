@@ -45,7 +45,6 @@ import { CartService } from '../services/cart.service';
         </tr>
         </tbody>
     </table>
-
   </div>
   <div class="card-footer text-muted font-weight-bold">
     Total : Rs. {{cart.cartTotal}}
