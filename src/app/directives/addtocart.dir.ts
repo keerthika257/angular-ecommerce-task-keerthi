@@ -45,7 +45,7 @@ import { CartService } from '../services/cart.service';
         </tr>
         </tbody>
     </table>
-    <a routerLink = "/billing" class="btn btn-sm btn-primary" *ngIf="cart.cartItemsList && cart.cartTotal">Checkout</a>
+    
   </div>
   <div class="card-footer text-muted font-weight-bold">
     Total : Rs. {{cart.cartTotal}}
